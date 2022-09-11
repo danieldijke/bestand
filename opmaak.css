@@ -11,9 +11,11 @@ li a {
     color: black;
     padding: 8px 16px;
     text-decoration: none;
+    text-align: left;
 }
 
 li a:hover {
     background-color: steelblue;
     color: cyan;
+    border: 1px solid darkblue;
 }
