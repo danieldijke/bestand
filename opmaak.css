@@ -3,7 +3,8 @@ ul{
     margin: 0;
     padding: 0;
     width: 250px;
-    background-color: aquamarine;
+    background-color: beige;
+    border: 1px solid black;
 }
 
 li a {
@@ -15,7 +16,7 @@ li a {
 }
 
 li a:hover {
-    background-color: steelblue;
-    color: cyan;
-    border: 1px solid darkblue;
+    background-color:cornsilk;
+    color:whitesmoke ;
+    border: 1px solid black;
 }
