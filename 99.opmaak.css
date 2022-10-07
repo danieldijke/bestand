@@ -1,22 +1,61 @@
-ul{
-    list-style-type: none;
-    margin: 0;
+.second-level-menu
+{
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 150px;
+    list-style: none;
     padding: 0;
-    width: 250px;
-    background-color: beige;
-    border: 1px solid black;
+    margin: 0;
+    display: none;
 }
 
-li a {
-    display: block;
-    color: black;
-    padding: 8px 16px;
+.second-level-menu > li
+{
+    position: relative;
+    height: 30px;
+    background: lightgray;
+    border: 1px black;
+}
+.second-level-menu > li:hover { background: slategray; }
+
+.top-level-menu
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.top-level-menu > li
+{
+    position: relative;
+    float: left;
+    height: 30px;
+    width: 150px;
+    background: lightgray;
+    border: 1px black;
+    
+}
+.top-level-menu > li:hover { background: slategray; }
+
+.top-level-menu li:hover > ul
+{
+    /* On hover, display the next level's menu */
+    display: inline;
+}
+
+
+/* Menu Link Styles */
+
+.top-level-menu a /* Apply to all links inside the multi-level menu */
+{
+    font: bold 14px Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
     text-decoration: none;
-    text-align: left;
-}
+    padding: 0 0 0 10px;
 
-li a:hover {
-    background-color:cornsilk;
-    color:black ;
-    border: 1px solid black;
+    /* Make the link cover the entire list item-container */
+    display: block;
+    line-height: 30px;
 }
+.top-level-menu a:hover { color: black; }
