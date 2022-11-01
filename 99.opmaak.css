@@ -15,9 +15,8 @@
     position: relative;
     height: 30px;
     background: lightgray;
-    border: 1px black;
 }
-.second-level-menu > li:hover { background: slategray; }
+.second-level-menu > li:hover { background: lightgray; }
 
 .top-level-menu
 {
@@ -32,11 +31,9 @@
     float: left;
     height: 30px;
     width: 150px;
-    background: lightgray;
-    border: 1px black;
-    
+    background: gray;
 }
-.top-level-menu > li:hover { background: slategray; }
+.top-level-menu > li:hover { background: darkgray; }
 
 .top-level-menu li:hover > ul
 {
@@ -49,7 +46,8 @@
 
 .top-level-menu a /* Apply to all links inside the multi-level menu */
 {
-    color: black;
+    font: bold 14px Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
     text-decoration: none;
     padding: 0 0 0 10px;
 
@@ -57,4 +55,4 @@
     display: block;
     line-height: 30px;
 }
-.top-level-menu a:hover { color: black; }
+.top-level-menu a:hover { color: darkgray; }
