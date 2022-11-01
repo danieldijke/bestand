@@ -3,7 +3,7 @@
     position: absolute;
     top: 30px;
     left: 0;
-    width: 150px;
+    width: 200px;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -14,9 +14,9 @@
 {
     position: relative;
     height: 30px;
-    background: lightgray;
+    background: gray;
 }
-.second-level-menu > li:hover { background: lightgray; }
+.second-level-menu > li:hover { background: darkgray; }
 
 .top-level-menu
 {
@@ -30,7 +30,7 @@
     position: relative;
     float: left;
     height: 30px;
-    width: 150px;
+    width: 200px;
     background: gray;
 }
 .top-level-menu > li:hover { background: darkgray; }
