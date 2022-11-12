@@ -1,3 +1,22 @@
+.fourth-level-menu
+{
+    position: absolute;
+    top: 0;
+    right: -200px;
+    width: 200px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+.fourth-level-menu > li
+{
+    height: 30px;
+    background: gray;
+}
+.fourth-level-menu > li:hover { background: darkgray; }
+
 .third-level-menu
 {
     position: absolute;
@@ -16,8 +35,6 @@
     background: gray;
 }
 .third-level-menu > li:hover { background: darkgray; }
-
-
 
 
 
@@ -40,6 +57,8 @@
     background: gray;
 }
 .second-level-menu > li:hover { background: darkgray; } /* hoveren over tekst geeft: */
+
+
 
 .top-level-menu /* eigenschappen van de bovenste, automatisch laten zien, laag */
 {
