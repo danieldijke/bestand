@@ -5,68 +5,50 @@
         <title>daniel's super site</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <h2 style="text-align:center;">De Fysieke Laag</h2>
+        <h2 style="text-align:center;">Opslag</h2>
     </head>
     <body>
         <ul class="top-level-menu">
             <li><a href="/index.html">Home</a></li>
             <li>
-                <a href="2.lagen.html">Lagen van een systeem</a></li>
+                <a href="lagen.html">3-lagenmodel</a></li>
                 <ul class="second-level-menu">
-                    <li><a href="5.fysieke laag.html">Fysieke laag</a></li>
-                    <li><a href="6.logische laag.html">Logische laag</a></li>
-                    <li><a href="7.toepassingslaag.html">Toepassingslaag</a></li>
+                    <li>
+                        <a href="fysieke laag.html">Fysieke laag</a>
+                        <ul class="third-level-menu">
+                            <li><a href="Basiscomponenten.html">Basiscomponenten</a></li>
+                            <li><a href="Opslag.html">Opslag</a></li>
+                            <li><a href="Randapparatuur.html"></a>Randapparatuur</li>
+                        </ul>
+                    </li>    
+                    <li><a href="logische laag.html">Logische laag</a></li>
+                    <li><a href="toepassingslaag.html">Toepassingslaag</a></li>
                 </ul>
             </li>
-        </ul>
-
-    <br>
-    <br>
-    
-    <pre>
-        <h4 <b> Moederbord en bussen </b> </h4>
-        Het moederbord verbindt alle onderdelen van de computer met elkaar. Het een grote printplaat en de grootste hardware-interface in de computer.
-        De componenten worden via de lijntjes op het moederbord met elkaar verbonden. Deze lijntjes heten bussen. 
-        De drie soorten bussen izjn de data bus, de control bus en de adress bus. Via de bussen kan informatie over de gegevens die nodig zijn voor de RAM
-        allebei de kanten op vervoerd worden, behalve bij de adress bus want die gaat alleen over de locatie op de RAM, dus daar gaat de stroom alleen richting de RAM.
-        Ook zitten alle connectoren op het moederbord. In smartphones en tablets wordt de system-on-a-chip (SOC) gebruikt. 
-        De hardware-onderdelen staan op deze chip, die weer verbonden is aan het moederbord om zo min mogelijk ruimte en energie in te nemen. 
-    
+        </ul> 
         
-        <h4><b> Processor, kloksnelheid en verwerkingssnelheid</b></h4>
-        De processor is het hart van de computer, ook wel CPU (Central Processing Unit) genoemd. Vrijwel alle apparaten hebben één processor,
-        met meerdere ‘cores’. Deze kernen werken tegelijk en kunnen hierdoor multitasken. 
-        Door taken tegelijk te doen kunnen apps die daarvoor gemaakt zijn sneller werken en de computer kan meerdere applicaties tegelijk runnen. 
-        De CPU bestaat uit een besturings- en een rekenorgaan. Hij haalt instructies en gegevens uit het interne geheugen op, laat berekeningen uitvoeren, 
-        slaat resultaten op in het geheugen en regelt de uitvoer naar onder andere het beeldscherm. 
-        De hoeveelheid instructies die een CPU kan uitvoeren per seconde staat voor de verwerkingssnelheid. Deze wordt gemeten in mips (Millions of Instructions Per Second).
-        Daarnaast is er ook de kloksnelheid. De klokchip geeft pulsen aan de processor zodat alles synchroon loopt. De pulsen per seconde worden in Hertz gemeten.
-        De verwerkingssnelheid is vaak lager dan de kloksnelheid, omdat er vaak meerdere pulsen nodig zijn voor een instructie. 
-        Ook kan je de kloksnelheid hoger maken door je CPU te ‘overclocken’. Je maakt het ritme dus sneller zodat de instructies ook sneller uitgevoerd kunnen worden. 
-
-        <!--plaatjes voor op deze pagina, alt = als de afbeelding het niet doet vervangende tekst.-->
-        <img src="/88.plaatjes/cpu1.png" alt="cpu's" style="width:400px;height:300px;"> 
-        <img src="/88.plaatjes/cpu2.jpg" alt="cpu" style="width:300px;height:300px;">
-
+    <br>
+    <br>
+    <pre>
         <h4><b>Inleiding<b></h4>
         Dankzij Von Neumann hebben we sinds 1945 programma’s die niet in de hardware staan maar vanuit het werkgeheugen worden geladen. 
         De CPU communiceert met het geheugen, laat de benodigde data uit het werkgeheugen halen door de Control Unit en laat dat verwerken door de ALU. 
         Dan zorgt de CPU ervoor dat het resultaat weer teruggezet wordt in het geheugen. Ook communiceert de CPU met apparaten die voor in- en output zorgen.
 
         <h4><b>Random Access Memory<b></h4>
-        Het RAM is het werkgeheugen en staat op geheugenchips. Het is heel toegankelijk om tijdelijk programma’s en data op te slaan. 
+         Het RAM is het werkgeheugen en staat op geheugenchips. Het is heel toegankelijk om tijdelijk programma’s en data op te slaan. 
         Het wordt opgeslagen door cellen die constant stroomstootjes krijgen. Zonder dit verliezen ze hun lading. 
         De gegevens kunnen overal in de RAM-stick worden opgeslagen en hebben een uniek adres waardoor ze makkelijk te vinden zijn. 
         De RAM-sticks staan in de computer op het moederbord, meestal is er plaats voor 4 stuks. Je kunt dus makkelijk zelf extra RAM toevoegen.
 
-        <h4><b>Read Only Memory<b></h4>
+         <h4><b>Read Only Memory<b></h4>
         Zoals hierboven staat, verliest de RAM zijn lading als de stroom wegvalt. Bij de ROM gebeurt dit niet. 
         Hierom staat de BIOS (Basic Input Output System) - het opstart systeem van de computer - op de ROM. In principe kan je zelf niet zomaar bij de opslag op de ROM, 
         omdat deze goed beveiligd is. ROM-chips komen ook voor in de videokaart en eventuele netwerkkaart. De instellingen van dat apparaat staan dan op die ROM, dat heet de firmware. 
-
+    
         De RAM en ROM zijn werkgeheugen die voor tijdelijke opslag zijn. Gegevens die langer bewaard moeten worden kunnen 
         via magnetische, optische of elektronische opslag bewaard worden. Deze hebben elk voor- en nadelen.
-
+    
         <h4><b>Permanente opslag<b></h4>
         Elektronische opslag is niet snel maar behoudt de data ook als er geen spanning is. Het wordt flashgeheugen genoemd omdat de chips in een flits gewist en 
         beschreven kunnen worden. Het ophalen van de gegevens is alleen niet zo snel, daarom wordt het niet boven de populaire soorten werkgeheugen gekozen. 
@@ -75,12 +57,11 @@
         De Hard Disk Drive maakt gebruikt van magnetische opslag. 
         Die werkt door platte magnetische schijven die ronddraaien (platters) en leeskoppen en schrijfkoppen die kleine deeltjes op de schijven veranderen van richting. 
         De data wordt zo als enen en nullen opgeslagen. De hoeveelheid opslag hangt af van het aantal platters en de samenstelling van de magnetische laag.
-        
+            
         <img src="/88.plaatjes/hdd informatica.jpeg" alt="hdd" style="width:300px;height:300px">Werking van een Hard Disk Drive
 
-    </pre>    
-        
-    
+    </pre>
+
     </body>
     <footer>
         <p style="text-align:center;"> Maker & Ontwerper: Daniël Dijke</p>
